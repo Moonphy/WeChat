@@ -1,0 +1,30 @@
+{
+  "pages":[
+    "pages/ongoing/ongoing",
+    "pages/oncoming/oncoming"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "black",
+    "navigationBarTitleText": "电影Demo",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar":{
+    "color": "#666",
+    "selectedColor": "#268dcd",
+    "borderStyle": "white",
+    "backgroundColor": "#fafafa",
+    "list": [{
+      "pagePath": "pages/ongoing/ongoing",
+      "text": "正在热映",
+      "iconPath":"image/ing.png",
+      "selectedIconPath":"image/ing-active.png"
+    },{
+      "pagePath": "pages/oncoming/oncoming",
+      "text": "即将上映",
+      "iconPath":"image/coming.png",
+      "selectedIconPath":"image/coming-active.png"
+    }]
+  },
+  "debug": true
+}

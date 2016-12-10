@@ -1,0 +1,11 @@
+<block wx:if="{{showLoading}}">
+    <view class="page-loading">
+        <text class="ui-loading"/>
+        <text class="loading-text">玩命加载中...</text>
+    </view>
+</block>
+<block wx:else>
+    <view>
+        <text>hello</text>
+    </view>
+</block>

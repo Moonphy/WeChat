@@ -1,0 +1,17 @@
+# git
+.git/
+
+
+**/.git
+# idea
+.idea/
+**/.idea/
+
+
+# node_modules
+**/node_modules
+
+# 安装
+wechat_web_devtools*
+安装/0.9/
+安装/微信web开发者工具/
